@@ -8,7 +8,7 @@ The goal of this project is to develop a question generation model that can assi
 ## Approach :
 By following this pipeline belowe, I ensure that my data is cleaned and processed effectively,relevant keyphrases are extracted and questions are generated based on the keyphrases and text as this helps in structuring the information, generating meaningful questions and facilitating learning or information retrieval tasks
 
-![Alt text]()
+![Alt text](https://github.com/menna566/Question-Generation/blob/main/steps%20.png)
  
 #### -keyword Extraction step
 Then I used the TF-IDF model and additional models like YAKE (Another Keyword Extractor) to measure the accuracy of generated keyphrases
@@ -28,10 +28,10 @@ Text Summarization: The mapping can be utilized as a source of information for t
 
 then I applied pipline for question generation to generate questions from the preprocessed keywords and it worked effectively :
 
-![Alt text]()
+![Alt text](https://github.com/menna566/Question-Generation/blob/main/modeeel.png)
 
 
 then we tried the process again but with Wikipedia-API and it worked effectively :
 
-
+![Alt text](https://github.com/menna566/Question-Generation/blob/main/moss%3B.png)
 
