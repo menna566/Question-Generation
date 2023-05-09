@@ -2,9 +2,9 @@
 ## objective :
 The goal of this project is to develop a question generation model that can assist in learning and education so we tried multiple models to compare between their results and get the best accuracy 
 ## Requirements:
--nltk.tokenize
--pke
--Wikipedia-API
+,nltk.tokenize
+,pke
+,Wikipedia-API
 ## Approach :
 By following this pipeline belowe, I ensure that my data is cleaned and processed effectively,relevant keyphrases are extracted and questions are generated based on the keyphrases and text as this helps in structuring the information, generating meaningful questions and facilitating learning or information retrieval tasks
 
