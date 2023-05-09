@@ -11,13 +11,13 @@ By following this pipeline belowe, I ensure that my data is cleaned and processe
 ![Alt text](https://github.com/menna566/Question-Generation/blob/main/steps%20.png)
  
 #### -keyword Extraction step
-Then I used the TF-IDF model and additional models like YAKE (Another Keyword Extractor) to measure the accuracy of generated keyphrases
+I used the TF-IDF model and additional models like YAKE (Another Keyword Extractor) to measure the accuracy of generated keyphrases
 
 -TF-IDF : stands for Term Frequency-Inverse Document Frequency, which calculates the importance of a term in a document relative to a collection of documents. This model can identify important keywords or phrases based on their frequency and rarity across the document corpus.
 
 -YAKE : is an unsupervised keyword extraction algorithm that uses statistical features and ranking functions to identify relevant keyphrases.
  
- -Then I determined the best keyphrases:
+ -determined the best keyphrases:
 Based on the evaluation results, I compared the performance of the TF-IDF model and the YAKE model I Analyzed the accuracy scores and identify which model provides better keyphrase extraction results for your specific task and dataset.
 #### -Mapping 
 I mapped between keywords and the corresponding sentences in which those keywords are found with this step we provide :
