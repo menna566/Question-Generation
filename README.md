@@ -2,7 +2,7 @@
 ## objective :
 The goal of this project is to develop a question generation model that can assist in learning and education so we tried multiple models to compare between their results and get the best accuracy 
 ## Requirements:
-,nltk.tokenize
+nltk.tokenize
 ,pke
 ,Wikipedia-API
 ## Approach :
